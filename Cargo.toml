@@ -1,0 +1,11 @@
+[package]
+
+name = "phantom"
+version = "0.0.0"
+authors = ["Jonathan Reem <jonathan.reem@gmail.com>"]
+
+[[lib]]
+
+name = "phantom"
+path = "src/lib.rs"
+
