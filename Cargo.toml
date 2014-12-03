@@ -1,11 +1,10 @@
 [package]
 
 name = "phantom"
-version = "0.0.1"
+version = "0.0.2"
 authors = ["Jonathan Reem <jonathan.reem@gmail.com>"]
+description = "Phantom types for use in other crates."
+repostory = "https://github.com/reem/rust-phantom"
+license = "MIT"
 
-[[lib]]
-
-name = "phantom"
-path = "src/lib.rs"
 
