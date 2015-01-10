@@ -6,5 +6,5 @@
 /// Can be used to hint types in places where it is necessary.
 ///
 /// Takes the place of `None::<T>` but is cleaner and more direct.
-pub struct Phantom<T>;
+pub struct Phantom<T: ?Sized>;
 
